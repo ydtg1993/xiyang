@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/ydtg1993/ant"
+	"pow/controller"
 	"pow/robot"
 	"pow/tools/config"
 	"pow/tools/database"
@@ -12,7 +13,10 @@ import (
 
 func main() {
 	Setup()
-	t := time.NewTicker(time.Second * 10)
+	/*t := time.NewTicker(time.Second * 3)
+	<-t.C*/
+	controller.MenuScan()
+	t := time.NewTicker(time.Second * 3000)
 	<-t.C
 }
 

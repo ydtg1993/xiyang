@@ -1,11 +1,32 @@
 package tools
 
 import (
+	"bytes"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"io/ioutil"
 	"math/rand"
 	"regexp"
 	"strconv"
 	"time"
 )
+
+func GBKToUTF8(gbkString string) (string, error) {
+	gbkBytes := []byte(gbkString)
+	utf8Bytes, err := GBKBytesToUTF8Bytes(gbkBytes)
+	if err != nil {
+		return "", err
+	}
+	return string(utf8Bytes), nil
+}
+
+func GBKBytesToUTF8Bytes(gbkBytes []byte) ([]byte, error) {
+	reader := simplifiedchinese.GBK.NewDecoder().Reader(bytes.NewReader(gbkBytes))
+	utf8Bytes, err := ioutil.ReadAll(reader)
+	if err != nil {
+		return nil, err
+	}
+	return utf8Bytes, nil
+}
 
 func StringToInt64(e string) (int64, error) {
 	return strconv.ParseInt(e, 10, 64)
