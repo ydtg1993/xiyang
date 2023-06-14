@@ -1,0 +1,20 @@
+CREATE TABLE `source_seed` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `source_id` int(11) NOT NULL,
+  `source_url` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `cover` varchar(255) NOT NULL,
+  `big_cover` varchar(255) NOT NULL,
+  `description` varchar(500) NOT NULL,
+  `publish_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `type` tinyint(1) NOT NULL COMMENT '0电影 1国产剧 2美剧 3韩剧 4港剧 5日剧 6动画 7音乐',
+  `tag` json NOT NULL,
+  `origin` varchar(100) NOT NULL,
+  `content` text NOT NULL,
+  `links` text NOT NULL,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `source_id_UNIQUE` (`source_id`),
+  UNIQUE KEY `source_url_UNIQUE` (`source_url`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='资源'

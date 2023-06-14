@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fd0586e-cd92-45cd-b2b4-6968f753031b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Users\hikki\sdk\go1.18.9" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="2QSBM6xC3VLjShzJZO1PpUfXRP2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\xiyang" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="xiyang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="pkg" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="43" key="#GOPATH" timestamp="1685337158980">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="392" y="43" key="#GOPATH/0.0.1600.771@0.0.1600.771" timestamp="1685337158980" />
+    <state x="392" y="43" key="#Go_Modules_(vgo)" timestamp="1685337185250">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="392" y="43" key="#Go_Modules_(vgo)/0.0.1600.771@0.0.1600.771" timestamp="1685337185250" />
+    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1685345229090">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.771@0.0.1600.771" timestamp="1685345229090" />
+    <state x="573" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1685345272552">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="573" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.771@0.0.1600.771" timestamp="1685345272552" />
+    <state width="943" height="520" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1685346136196">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state width="943" height="520" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/0.0.1600.771@0.0.1600.771" timestamp="1685346136196" />
+    <state x="328" y="125" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1685346136196">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="328" y="125" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1600.771@0.0.1600.771" timestamp="1685346136196" />
+    <state x="580" y="140" key="FileChooserDialogImpl" timestamp="1685345226481">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="580" y="140" key="FileChooserDialogImpl/0.0.1600.771@0.0.1600.771" timestamp="1685345226481" />
+    <state width="1340" height="190" key="GridCell.Tab.0.bottom" timestamp="1686709427647">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state width="1340" height="190" key="GridCell.Tab.0.bottom/0.0.1600.771@0.0.1600.771" timestamp="1686709427647" />
+    <state width="1340" height="190" key="GridCell.Tab.0.center" timestamp="1686709427647">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state width="1340" height="190" key="GridCell.Tab.0.center/0.0.1600.771@0.0.1600.771" timestamp="1686709427647" />
+    <state width="1340" height="190" key="GridCell.Tab.0.left" timestamp="1686709427647">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state width="1340" height="190" key="GridCell.Tab.0.left/0.0.1600.771@0.0.1600.771" timestamp="1686709427647" />
+    <state width="1340" height="190" key="GridCell.Tab.0.right" timestamp="1686709427647">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state width="1340" height="190" key="GridCell.Tab.0.right/0.0.1600.771@0.0.1600.771" timestamp="1686709427647" />
+    <state x="239" y="37" key="SettingsEditor" timestamp="1685345946129">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="239" y="37" key="SettingsEditor/0.0.1600.771@0.0.1600.771" timestamp="1685345946129" />
+    <state x="308" y="0" width="736" height="771" key="find.popup" timestamp="1685346164423">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="308" y="0" width="736" height="771" key="find.popup/0.0.1600.771@0.0.1600.771" timestamp="1685346164423" />
+  </component>
+</project>
