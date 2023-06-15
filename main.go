@@ -13,7 +13,8 @@ import (
 
 func main() {
 	Setup()
-	controller.MenuScan()
+	//controller.MenuScan()
+	controller.DetailScan()
 	t := time.NewTicker(time.Second * 3000)
 	<-t.C
 }
