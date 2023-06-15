@@ -14,17 +14,17 @@ import (
 
 func MenuScan() {
 	menu := map[string]string{
-		"电影": "film",
-		/*	"国产剧":"neidi",
-			"美剧":"meiju",
-			"韩剧":"hanjv",
-			"港剧":"gangjv",
-			"日剧":"rijv",
-			"动画":"comic",
-			"明星":"mingxing",
-			"音乐":"music",
-			"纪录片":"jilupian",
-			"精选":"nice",*/
+		"电影":  "film",
+		"国产剧": "neidi",
+		"美剧":  "meiju",
+		"韩剧":  "hanjv",
+		"港剧":  "gangjv",
+		"日剧":  "rijv",
+		"动画":  "comic",
+		"明星":  "mingxing",
+		"音乐":  "music",
+		"纪录片": "jilupian",
+		"精选":  "nice",
 	}
 
 	for m, uri := range menu {

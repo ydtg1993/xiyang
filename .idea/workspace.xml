@@ -39,7 +39,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,46 +90,50 @@
       <screen x="0" y="0" width="1600" height="771" />
     </state>
     <state x="328" y="125" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1600.771@0.0.1600.771" timestamp="1685346136196" />
-    <state x="580" y="140" key="FileChooserDialogImpl" timestamp="1685345226481">
+    <state x="580" y="140" key="FileChooserDialogImpl" timestamp="1686732382672">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state x="580" y="140" key="FileChooserDialogImpl/0.0.1600.771@0.0.1600.771" timestamp="1685345226481" />
-    <state width="1340" height="267" key="GridCell.Tab.0.bottom" timestamp="1686730516980">
+    <state x="580" y="140" key="FileChooserDialogImpl/0.0.1600.771@0.0.1600.771" timestamp="1686732382672" />
+    <state width="1340" height="359" key="GridCell.Tab.0.bottom" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="267" key="GridCell.Tab.0.bottom/0.0.1600.771@0.0.1600.771" timestamp="1686730516980" />
-    <state width="1340" height="267" key="GridCell.Tab.0.center" timestamp="1686730516980">
+    <state width="1340" height="359" key="GridCell.Tab.0.bottom/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.0.center" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="267" key="GridCell.Tab.0.center/0.0.1600.771@0.0.1600.771" timestamp="1686730516980" />
-    <state width="1340" height="267" key="GridCell.Tab.0.left" timestamp="1686730516980">
+    <state width="1340" height="359" key="GridCell.Tab.0.center/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.0.left" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="267" key="GridCell.Tab.0.left/0.0.1600.771@0.0.1600.771" timestamp="1686730516980" />
-    <state width="1340" height="267" key="GridCell.Tab.0.right" timestamp="1686730516980">
+    <state width="1340" height="359" key="GridCell.Tab.0.left/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.0.right" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="267" key="GridCell.Tab.0.right/0.0.1600.771@0.0.1600.771" timestamp="1686730516980" />
-    <state width="1340" height="359" key="GridCell.Tab.1.bottom" timestamp="1686730351046">
+    <state width="1340" height="359" key="GridCell.Tab.0.right/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.1.bottom" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="359" key="GridCell.Tab.1.bottom/0.0.1600.771@0.0.1600.771" timestamp="1686730351046" />
-    <state width="1340" height="359" key="GridCell.Tab.1.center" timestamp="1686730351046">
+    <state width="1340" height="359" key="GridCell.Tab.1.bottom/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.1.center" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="359" key="GridCell.Tab.1.center/0.0.1600.771@0.0.1600.771" timestamp="1686730351046" />
-    <state width="1340" height="359" key="GridCell.Tab.1.left" timestamp="1686730351046">
+    <state width="1340" height="359" key="GridCell.Tab.1.center/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.1.left" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="359" key="GridCell.Tab.1.left/0.0.1600.771@0.0.1600.771" timestamp="1686730351046" />
-    <state width="1340" height="359" key="GridCell.Tab.1.right" timestamp="1686730351046">
+    <state width="1340" height="359" key="GridCell.Tab.1.left/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state width="1340" height="359" key="GridCell.Tab.1.right" timestamp="1686732096086">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1340" height="359" key="GridCell.Tab.1.right/0.0.1600.771@0.0.1600.771" timestamp="1686730351046" />
-    <state x="239" y="37" key="SettingsEditor" timestamp="1685345946129">
+    <state width="1340" height="359" key="GridCell.Tab.1.right/0.0.1600.771@0.0.1600.771" timestamp="1686732096086" />
+    <state x="239" y="37" key="SettingsEditor" timestamp="1686732385135">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state x="239" y="37" key="SettingsEditor/0.0.1600.771@0.0.1600.771" timestamp="1685345946129" />
+    <state x="239" y="37" key="SettingsEditor/0.0.1600.771@0.0.1600.771" timestamp="1686732385135" />
+    <state x="331" y="118" key="Vcs.Push.Dialog.v2" timestamp="1686732398461">
+      <screen x="0" y="0" width="1600" height="771" />
+    </state>
+    <state x="331" y="118" key="Vcs.Push.Dialog.v2/0.0.1600.771@0.0.1600.771" timestamp="1686732398461" />
     <state width="700" height="385" key="XDebugger.FullValuePopup" timestamp="1686730184367">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
@@ -138,9 +142,9 @@
       <screen x="0" y="0" width="1600" height="771" />
     </state>
     <state x="308" y="0" width="736" height="771" key="find.popup/0.0.1600.771@0.0.1600.771" timestamp="1685346164423" />
-    <state x="475" y="184" key="git4idea.merge.GitPullDialog" timestamp="1686730537761">
+    <state x="475" y="184" key="git4idea.merge.GitPullDialog" timestamp="1686732207532">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state x="475" y="184" key="git4idea.merge.GitPullDialog/0.0.1600.771@0.0.1600.771" timestamp="1686730537761" />
+    <state x="475" y="184" key="git4idea.merge.GitPullDialog/0.0.1600.771@0.0.1600.771" timestamp="1686732207532" />
   </component>
 </project>

@@ -8,7 +8,6 @@ import (
 )
 
 type Tags []string
-
 type SourceSeed struct {
 	ID          uint      `json:"id" gorm:"primarykey;->"`
 	SourceURL   string    `gorm:"not null;unique"`
