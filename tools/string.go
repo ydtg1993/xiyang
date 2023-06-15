@@ -1,21 +1,24 @@
 package tools
 
 import (
-	"github.com/axgle/mahonia"
-	"log"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
+	"io/ioutil"
 	"math/rand"
 	"regexp"
 	"strconv"
+	"strings"
 	"time"
 )
 
-func ConvertToUTF8(input string) string {
-	decoder := mahonia.NewDecoder("GBK")
-	utf8String := decoder.ConvertString(input)
-	if decoder.Error() != nil {
-		log.Fatal(decoder.Error())
+func ConvertToUTF8(input string) (string, error) {
+	reader := transform.NewReader(strings.NewReader(input), simplifiedchinese.GBK.NewDecoder())
+	utf8Bytes, err := ioutil.ReadAll(reader)
+	if err != nil {
+		return "", err
 	}
-	return utf8String
+	utf8String := string(utf8Bytes)
+	return utf8String, nil
 }
 
 func StringToInt64(e string) (int64, error) {

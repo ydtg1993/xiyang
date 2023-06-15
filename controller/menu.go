@@ -96,9 +96,9 @@ func Catch(menu, uri string) {
 					return
 				}
 				Seed.Type = menu
-				Seed.Title, _ = tools.GBKToUTF8(T.Text())
+				Seed.Title, _ = tools.ConvertToUTF8(T.Text())
 				Seed.SourceURL = url
-				Seed.Description, _ = tools.GBKToUTF8(e.DOM.Find("p.s-desc").Text())
+				Seed.Description, _ = tools.ConvertToUTF8(e.DOM.Find("p.s-desc").Text())
 				Seed.Cover, _ = e.DOM.Find("img").Attr("src")
 				Seed.Tag = model.Tags{}
 				err := orm.Eloquent.Create(&Seed).Error

@@ -14,9 +14,10 @@ import (
 func main() {
 	Setup()
 	//controller.MenuScan()
-	controller.DetailScan()
-	t := time.NewTicker(time.Second * 3000)
+	t := time.NewTicker(time.Second * 7)
 	<-t.C
+	controller.DetailScan()
+	select {}
 }
 
 func Setup() {
