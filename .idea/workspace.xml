@@ -120,38 +120,38 @@
       <screen x="0" y="0" width="1600" height="771" />
     </state>
     <state x="580" y="140" key="FileChooserDialogImpl/0.0.1600.771@0.0.1600.771" timestamp="1686732382672" />
-    <state width="1109" height="134" key="GridCell.Tab.0.bottom" timestamp="1687584799247">
+    <state width="1109" height="50" key="GridCell.Tab.0.bottom" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="134" key="GridCell.Tab.0.bottom/0.0.1600.771@0.0.1600.771" timestamp="1687584799247" />
-    <state width="1109" height="134" key="GridCell.Tab.0.center" timestamp="1687584799247">
+    <state width="1109" height="50" key="GridCell.Tab.0.bottom/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.0.center" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="134" key="GridCell.Tab.0.center/0.0.1600.771@0.0.1600.771" timestamp="1687584799247" />
-    <state width="1109" height="134" key="GridCell.Tab.0.left" timestamp="1687584799247">
+    <state width="1109" height="50" key="GridCell.Tab.0.center/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.0.left" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="134" key="GridCell.Tab.0.left/0.0.1600.771@0.0.1600.771" timestamp="1687584799247" />
-    <state width="1109" height="134" key="GridCell.Tab.0.right" timestamp="1687584799247">
+    <state width="1109" height="50" key="GridCell.Tab.0.left/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.0.right" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="134" key="GridCell.Tab.0.right/0.0.1600.771@0.0.1600.771" timestamp="1687584799247" />
-    <state width="1109" height="205" key="GridCell.Tab.1.bottom" timestamp="1687575904570">
+    <state width="1109" height="50" key="GridCell.Tab.0.right/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.1.bottom" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="205" key="GridCell.Tab.1.bottom/0.0.1600.771@0.0.1600.771" timestamp="1687575904570" />
-    <state width="1109" height="205" key="GridCell.Tab.1.center" timestamp="1687575904570">
+    <state width="1109" height="50" key="GridCell.Tab.1.bottom/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.1.center" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="205" key="GridCell.Tab.1.center/0.0.1600.771@0.0.1600.771" timestamp="1687575904570" />
-    <state width="1109" height="205" key="GridCell.Tab.1.left" timestamp="1687575904570">
+    <state width="1109" height="50" key="GridCell.Tab.1.center/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.1.left" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="205" key="GridCell.Tab.1.left/0.0.1600.771@0.0.1600.771" timestamp="1687575904570" />
-    <state width="1109" height="205" key="GridCell.Tab.1.right" timestamp="1687575904570">
+    <state width="1109" height="50" key="GridCell.Tab.1.left/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
+    <state width="1109" height="50" key="GridCell.Tab.1.right" timestamp="1687597488841">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
-    <state width="1109" height="205" key="GridCell.Tab.1.right/0.0.1600.771@0.0.1600.771" timestamp="1687575904570" />
+    <state width="1109" height="50" key="GridCell.Tab.1.right/0.0.1600.771@0.0.1600.771" timestamp="1687597488841" />
     <state x="614" y="96" key="RollbackChangesDialog" timestamp="1686877422202">
       <screen x="0" y="0" width="1600" height="771" />
     </state>
@@ -189,6 +189,16 @@
           <url>file://$PROJECT_DIR$/controller/detail.go</url>
           <line>18</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controller/detail.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controller/detail.go</url>
+          <line>79</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

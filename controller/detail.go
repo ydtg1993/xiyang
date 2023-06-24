@@ -75,11 +75,11 @@ func DetailScan() {
 	doc.Find("p[style='text-align: center;']").Each(func(i int, selection *goquery.Selection) {
 		selection.Remove()
 	})
-	lastP := doc.Find("p:last-child")
-	if lastP.Length() > 0 {
-		Seed.Links,_ = lastP.Html()
+	last := doc.Find("#body").Children().Last()
+	if last.Length() > 0 {
+		Seed.Links,_ = last.Html()
 	}
-	doc.Find("p:last-child").Remove()
+	last.Remove()
 	result, err := doc.Find("div#body").Html()
 	if err == nil {
 		Seed.Content = result
