@@ -1,14 +1,17 @@
 package controller
 
 import (
+	"github.com/PuerkitoBio/goquery"
 	"github.com/tebeka/selenium"
 	"github.com/ydtg1993/ant"
+	"log"
 	"pow/global/orm"
 	"pow/model"
 	"pow/robot"
 	"pow/tools/config"
 	"pow/tools/rd"
 	"regexp"
+	"strings"
 	"time"
 )
 
@@ -55,8 +58,31 @@ func DetailScan() {
 	}
 
 	contentDom, err := bot.WebDriver.FindElement(selenium.ByCSSSelector, "div.content")
-	if err == nil {
-		Seed.Content, _ = contentDom.Text()
+	if err != nil {
+		return
 	}
 
+	Seed.RawContent, _ = contentDom.GetAttribute("innerHTML")
+	imgDom, err := contentDom.FindElement(selenium.ByTagName, "img")
+	if err == nil {
+		Seed.BigCover, _ = imgDom.GetAttribute("src")
+	}
+
+	doc, err := goquery.NewDocumentFromReader(strings.NewReader("<div id='body'>"+Seed.RawContent+"</div>"))
+	if err != nil {
+		log.Fatal(err)
+	}
+	doc.Find("p[style='text-align: center;']").Each(func(i int, selection *goquery.Selection) {
+		selection.Remove()
+	})
+	lastP := doc.Find("p:last-child")
+	if lastP.Length() > 0 {
+		Seed.Links,_ = lastP.Html()
+	}
+	doc.Find("p:last-child").Remove()
+	result, err := doc.Find("div#body").Html()
+	if err == nil {
+		Seed.Content = result
+	}
+	orm.Eloquent.Save(Seed)
 }
